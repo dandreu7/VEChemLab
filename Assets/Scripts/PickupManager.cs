@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PickupSystem : MonoBehaviour {
+public class PickupMananger : MonoBehaviour {
     public float pickupRange = 3f; 
     public float holdDistance = 0.5f; // Hold distance from the player
     public float holdHeight = -0.2f;  
@@ -10,7 +10,7 @@ public class PickupSystem : MonoBehaviour {
 
     void Start() {
         //playerCamera = Camera.main;
-        Debug.Log("PickupSystem initialized. Using camera: " + playerCamera.name);
+        //Debug.Log("PickupSystem initialized. Using camera: " + playerCamera.name);
     }
 
     void Update() {
