@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SensorPlane : MonoBehaviour {
-    public Material defaultMaterial;
-    public MeshRenderer displayRenderer;
+public class Sensor : MonoBehaviour {
+    public Material defaultMaterial; // Display Screen Material
+    public MeshRenderer displayRenderer; //Display Screen
     private List<string> itemsOnSensor = new List<string>();
 
     // Reactions Dictionary
@@ -14,7 +14,10 @@ public class SensorPlane : MonoBehaviour {
         // Add new reactions with the following format:
         // reactionResults.Add(new List<string> {CHEMICALS FOR REACTION HERE}, Resources.Load<Material>(PATH TO MATERIAL));
         // make sure that materials are under Assets/Resources/Materials/Reactions
-        reactionResults.Add(new List<string> { "Baking Soda", "Vinegar" }, Resources.Load<Material>("Materials/Reactions/Volcano Material"));
+        reactionResults.Add(new List<string> { "Baking Soda", "Vinegar" }, 
+            Resources.Load<Material>("Materials/Reactions/Volcano Material"));
+        reactionResults.Add(new List<string>{ "Mints", "Cola" },
+            Resources.Load<Material>("Materials/Reactions/SodaBoom Material"));
         
     }
 
