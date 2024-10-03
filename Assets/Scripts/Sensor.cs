@@ -18,6 +18,8 @@ public class Sensor : MonoBehaviour {
             Resources.Load<Material>("Materials/Reactions/Volcano Material"));
         reactionResults.Add(new List<string>{ "Mints", "Cola" },
             Resources.Load<Material>("Materials/Reactions/SodaBoom Material"));
+        reactionResults.Add(new List<string>{ "Borax", "Glue", "Water"},
+            Resources.Load<Material>("Materials/Reactions/Slime Material"));
         
     }
 
