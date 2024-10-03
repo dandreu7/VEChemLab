@@ -14,6 +14,8 @@ L. MOUSE BTN - GRAB
 
 R. MOUSE BTN - TOSS
 
+ESC- EXIT GAME
+
 
 # Description:
 
