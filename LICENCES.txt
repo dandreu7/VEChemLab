@@ -11,3 +11,5 @@ music- Music by <a href="https://pixabay.com/users/alexgrohl-25289918/?utm_sourc
 Safety Posters - https://www.weareteachers.com/lab-safety-rules/
 
 Slime - By Nevit - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10745390
+
+FPS movement script- https://github.com/B0N3head/unity-fps-movement-controller
